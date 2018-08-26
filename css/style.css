@@ -28,7 +28,11 @@ h1 {
 	font-size: 36px;
 }
 h2 {
+	color: #ffffff;
 	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 h3 {
 	font-size: 28px;
@@ -43,7 +47,7 @@ h6 {
 	font-size: 18px;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #000000;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -396,7 +400,7 @@ display: inline-block;
 #clockdiv div > span{
 padding: 15px;
 border-radius: 3px;
-background: #00816A;
+background: #36789E;
 display: inline-block;
 }
 
