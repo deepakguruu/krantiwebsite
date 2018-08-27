@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- css -->
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-de13cc7f0ae6e1675f946cf26103a3d9.css" data-turbolinks-track="true" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/x-icon" href="klogo.ico" />
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -18,8 +19,8 @@
 <body>
 
   <!-- Navigation -->
-  <nav id="navb" class="navbar navbar-default" role="navigation">
-    <div class="container" >
+    <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle nav</span>
@@ -29,11 +30,12 @@
         </button>
 
         <!-- Logo text or image -->
-        <a href="home.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
+        <a href="home.html"><img src="knavmain.ico" alt="logonavbar"  height="60" width="100">
+
       </div>
-      <div class=" -collapse">
-        <ul  class="nav navbar-nav">
-          <li class="current" href="#"><a></a></li>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#"></a></li>
           <li><a href="#particles-js">Home</a></li>
           <li><a href="#about">Description</a></li>
           <li><a href="events.html">Events</a></li>
@@ -44,7 +46,23 @@
       </div>
     </div>
   </nav>
-<div id="particles-js"></div>
+  
+<div class ="container" id="particles-js"></div>
+<!--
+<div class="hero-logo-circles">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-red-semi-085b4e44d49b2ffe935cc1b2b3094ce8.svg" alt="Index portal red semi">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-red-be5d1b8a52c13bf286560aba3e4c8c30.svg" alt="Index portal red">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-orange-semi-d2010f0f8e41e03dbf2b5c52166abe4b.svg" alt="Index portal orange semi">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-orange-b3bddfb758b91d22f43d0e14ed8e29da.svg" alt="Index portal orange">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-yellow-semi-545681fe77ff01659d472bd379a9f38b.svg" alt="Index portal yellow semi">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-yellow-ff207a58ad4f450ea9ac0e17224b39f1.svg" alt="Index portal yellow">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-green-semi-2d5bc571ee90e710d93f7ae7ddd06e85.svg" alt="Index portal green semi">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-green-6ab85a1e7343a232273868031b242806.svg" alt="Index portal green">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-blue-semi-7333f1323549be50644411b691b173dd.svg" alt="Index portal blue semi">
+          <img class="hero-logo-circle" src="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-blue-92fc2c151190795bd0147c03d4fb8352.svg" alt="Index portal blue">
+        </div>
+
+-->
   <!-- About -->
   <section id="about" class="home-section bg-white">
     <div class="container">
@@ -120,7 +138,6 @@
            <li class="wow fadeInDown" data-wow-delay="0.3s"><a><img src="img/sponsors/1.png" alt="" /></a></li>
            <li class="wow fadeInDown" data-wow-delay="0.6s"><a><img src="img/sponsors/2.png" alt="" /></a></li>
            <li class="wow fadeInDown" data-wow-delay="0.9s"><a><img src="img/sponsors/3.jpg" alt="" /></a></li>
-           <li class="wow fadeInDown" data-wow-delay="1s"><a><img src="img/sponsors/4.jpg" alt="" /></a></li>
          </ul>
        </div>
      </div>
@@ -164,17 +181,6 @@
         </div>
       </div>
       <br><br>
-      <div class="container-fluid mapouter ">
-        <div class="gmap_canvas">
-          <iframe width="822" height="498" id="gmap_canvas" src="https://maps.google.com/maps?q=meenakshi%20sundararajan&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-          <a href="https://www.pureblack.de">webdesign agentur</a>
-        </div>
-          <style>
-          .mapouter{text-align:right;height:498px;width:822px;}.gmap_canvas {overflow:hidden;background:none!important;height:498px;width:822px;}
-        </style>
-      </div>
-
-     <!--
       <div class="row mar-top30">
         <div class="col-md-12">
           <h5>We're on social networks</h5>
@@ -191,12 +197,23 @@
 							<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 						</span></a>
             </li>
+            <br><br>
           </ul>
         </div>
       </div>
+      <div class="container-fluid mapouter ">
+        <div class="gmap_canvas">
+          <iframe width="822" height="498" id="gmap_canvas" src="https://maps.google.com/maps?q=meenakshi%20sundararajan&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.pureblack.de">webdesign agentur</a>
+        </div>
+          <style>
+          .mapouter{text-align:right;height:498px;width:822px;}.gmap_canvas {overflow:hidden;background:none!important;height:498px;width:822px;}
+        </style>
+      </div>
+
     </div>
   </section>
--->
+
   <!-- Footer -->
   <footer>
     <div class="container">
