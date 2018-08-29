@@ -28,8 +28,9 @@ h1 {
 	font-size: 36px;
 }
 h2 {
-	color: #ffffff;
+	color: #333333	;
 	font-size: 32px;
+	position: relative;
 	font-weight: 700;
 	margin-bottom: 20px;
 	font-family: 'Montserrat', sans-serif;
@@ -149,36 +150,6 @@ margin, padding
 .back-to-top:focus {
   outline: none;
 }
-/*Circle thingy*/
-.hero-logo1{
-background-color:#0D3E59;
-padding:30px;
-}
-.hero-logo-circle:nth-child(10) {
-  animation-duration: 120s;
-}
-
-.hero-logo-circle {
-  position: absolute;
-  left: 0;
-  top: 0;
-  animation: hero-logo-circle 1s linear infinite;
-  will-change: transform;
-}
-
-
-
-
-
-.hero-logo {
-  flex: 0 0 500px;
-  height: 366px;
-  background-repeat: no-repeat;
-  /* background-image: url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-logo-9fb7077….svg),url(//github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/index-portal-sides-7d999cb….svg); */
-  background-position: center;
-  -webkit-user-select: none;
-  user-select: none;
-}
 
 /* ================================
 Navbar
@@ -187,8 +158,8 @@ Navbar
 	background-color:#0d3e59	;
 }
 nav.navbar{
-	position: fixed;
-	top: -72px;
+	position: unset	;/* changed from fixed to unset*/
+	top: -172px;
 	margin-bottom: 0px;
 	padding: 10px 0px 10px 0px;
 	width: 100%;
@@ -248,12 +219,12 @@ Home sections
 
 .home-section {
 	width: 100%;
-	padding: 150px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 }
 
 /* --- heading --- */
 .section-heading {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .section-heading h2 {
@@ -467,9 +438,8 @@ ul.social-network li {
 	margin: 5px 5px;
 }
 
-
-ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
+.fa-circle {
+		color: #333333;
 }
 
 ul.social-network li a i{
@@ -574,6 +544,12 @@ more media queries
 	background-color: #0D3E59;
 	padding-bottom: 		0px;
 }
+
+.event_cont{
+
+	align-items:  center;
+
+}
 /*particles*/
 #particles-js{
   width: 100%;
@@ -582,7 +558,17 @@ more media queries
 	background-size: contain;
 	background-color: #0D3E59;
 	color: #00ffff
-  background-size: cover;
+  background-size:	auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+/*Wrapper class added as extra white spaces were present*/
+.wrap
+{
+	overflow-x: hidden;
+}
+
+
+.form_center{
+	margin: 0px auto 0px auto;
 }
