@@ -24,22 +24,17 @@ if (isset($_POST['submit'])){
             $empty .= " Email";
         }
         mysqli_close($conn);
-        header("Location: index.php?registration=Empty+".$empty);
+          echo' <script> alert("Fill out all the fields");</script>' ;
     }
     else{
-        if (!preg_match('/^[a-zA-Z]*$/',$name)){
-            mysqli_close($conn);
-            header("Location: index.php?registration=Invalid+Name");
-        }
-        else{
             if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
                 mysqli_close($conn);
-                header("Location: index.php?registration=Invalid+Email");
+                    echo' <script> alert("Invalid Email");</script>'
             }
             else{
                 if (!preg_match('/^[0-9]*$/',$con_no) || strlen($con_no) != 10){
                     mysqli_close($conn);
-                    header("Location: index.php?registration=Invalid+Number");
+                      echo' <script> alert("Invalid+Number");</script>' ;
                 }
                 else{
                     $sql = "SELECT * FROM kranti.participants WHERE email = \"$email\"";
@@ -47,14 +42,17 @@ if (isset($_POST['submit'])){
                     $resultCheck = mysqli_num_rows($result);
                     if ($resultCheck > 0){
                         mysqli_close($conn);
-                        header("Location: index.php?registration=Already+Registered");
+                        echo' <script> alert("Already registered");</script>' ;
+                        header("Location: index.php?already+registered");
+
                     }
                     else{
                         $sql = "INSERT INTO kranti.participants (name, contact_no, email, college_name, gender) VALUES('$name','$con_no','$email','$college','$gender')";
                         if(mysqli_query($conn,$sql))
                         {
                             mysqli_close($conn);
-                            header("Location:thankyou.php");
+                            echo' <script> alert("Thanks for registering");</script>' ;
+                            header("Location: index.php?registration+successful");
                         }
                         else{
                             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
@@ -68,6 +66,7 @@ if (isset($_POST['submit'])){
 }
 else{
     mysqli_close($conn);
-    header("Location:thankyou.php");
+    echo' <script> alert("Please enter values in the fields");</script>' ;
+    header("Location: index.php?unset+values");
 }
 ?>
