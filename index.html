@@ -17,6 +17,11 @@
   <link href="color/default.css" rel="stylesheet" media="screen">
   <link href="css/events.css" rel="stylesheet" media="screen">
   <link href="css/modal.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" media="all" href="https://github-atom-io-herokuapp-com.global.ssl.fastly.net/assets/application-de13cc7f0ae6e1675f946cf26103a3d9.css" data-turbolinks-track="true" />
+   <link rel="shortcut icon" type="image/x-icon" href="klogo.ico" />
+   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href="css/style.css" rel="stylesheet" media="screen">
+   <link href="color/default.css" rel="stylesheet" media="screen">
 
 
 </head>
@@ -24,8 +29,8 @@
 <body>
 <div class="wrap">
   <!-- Navigation -->
-  <nav id="navb" class="navbar navbar-default  " role="navigation"> <!-- //added nav bar-fixed-top-->
-    <div class="container" >
+  <nav class="navbar navbar-default fixed-to-top" role="navigation" style="display: block;">
+    <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
           <span class="sr-only">Toggle nav</span>
@@ -35,14 +40,15 @@
         </button>
 
         <!-- Logo text or image -->
-        <a href="index.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
-      </div>
-      <div class=" navbar">
-        <ul  class="nav navbar-nav">
-          <li class="current" href="#"><a></a></li>
-          <li><a href="#particles-js">Home</a></li>
-          <li><a href="#about">Description</a></li>
-          <li><a href="#all">Events</a></li>
+        <a href="home.html"><img src="knavmain.ico" alt="logonavbar" height="60" width="100">
+
+      </a></div><a href="home.html">
+      </a><div class="navigation collapse navbar-collapse navbar-ex1-collapse"><a href="home.html">
+        </a><ul class="nav navbar-nav"><a href="home.html">
+        </a><li class=""><a href="index.html"></a><a href="#"></a></li>
+          <li class=""><a href="#particles-js">Home</a></li>
+          <li class="current"><a href="#about">Description</a></li>
+          <li><a href="events.html">Events</a></li>
           <li><a href="#register">Register</a></li>
           <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="#bottom-widget">Contact</a></li>
@@ -746,15 +752,9 @@
         </div>
       </div>
       <br><br>
-      <div class="container-fluid mapouter ">
-        <div class="gmap_canvas">
-          <iframe style="width:75%; height:75%;position: 10 -50 10 0" id="gmap_canvas" src="https://maps.google.com/maps?q=meenakshi%20sundararajan&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-
-        </div>
-          <style>
-          .mapouter{text-align:right;height:498px;width:822px;}.gmap_canvas {overflow:hidden;background:none!important;height:498px;width:822px;}
-        </style>
-      </div>
+      <section id="map">
+          <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.730168658516!2d80.2265366!3d13.0558678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d3f7e677496e707!2sMeenakshi+Sundararajan+Engineering+College!5e0!3m2!1sen!2sin!4v1535042015452" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </section>
 
      <!--
       <div class="row mar-top30">
