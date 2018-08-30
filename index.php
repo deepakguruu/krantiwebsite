@@ -11,6 +11,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
   <link rel="shortcut icon" type="image/x-icon" href="klogo.ico" />
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen">
@@ -24,33 +27,33 @@
 <body>
 <div class="wrap">
   <!-- Navigation -->
-  <nav id="navb" class="navbar navbar-default  " role="navigation"> <!-- //added nav bar-fixed-top-->
-    <div class="container" >
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle nav</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <!-- Logo text or image -->
-        <a href="index.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
-      </div>
-      <div class=" navbar">
-        <ul  class="nav navbar-nav">
-          <li class="current" href="#"><a></a></li>
-          <li><a href="#particles-js">Home</a></li>
-          <li><a href="#about">Description</a></li>
-          <li><a href="#all">Events</a></li>
-          <li><a href="#register">Register</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#bottom-widget">Contact</a></li>
-        </ul>
-      </div>
+  <nav id="navb" class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
     </div>
-  </nav>
-<div id="particles-js"></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="top-navbar-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="current" href="#"><a></a></li>
+        <li><a href="#particles-js">Home</a></li>
+        <li><a href="#about">Description</a></li>
+        <li><a href="#all">Events</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#bottom-widget">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="particles-js" class="container"></div>
   <!-- About -->
 <br><br>
   <section id="about" class="home-section bg-white">
@@ -154,22 +157,30 @@
     <img src="img/bt.png" />
     <div class="mask">
       <h2>Beta Testing</h2>
-      <p>It's not at all important to get it right the first time. It's vitally important to get it right the last time..</p>
+      <p>Test your creativity limits to bring out the best in you</p>
       <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal7">Read More</a>
     </div>
   </div>
-</div>
 
-<div class="container">
+  <div class="view view-first">
+    <img src="img/act.png" />
+    <div class="mask">
+      <h2>Alcatraz</h2>
+      <p>Crack the code from your own fortress</p>
+      <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal10">Read More</a>
+    </div>
+  </div>
 
   <div class="view view-first">
     <img src="img/gam.png" />
     <div class="mask">
       <h2>Gaming</h2>
-      <p>It's not at all important to get it right the first time. It's vitally important to get it right the last time..</p>
-      <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal7">Read More</a>
+      <p>Keep calm and keep away from the storm !!!!</p>
+      <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal9">Read More</a>
     </div>
   </div>
+
+
 </div>
 </div>
 </section>
@@ -189,7 +200,7 @@
             <div class="card">
               <h3>"Do you believe in luck? Well here is a test for you".</h3>
               <div class="fakeimg" >
-                <img src="img/wof4.jpg">
+                <img src="img/wofi.jpg">
 
               </div>
               <p>Spin the wonder wheel to choose one out of five topics. Test your knowledge on the subject your fate has favoured.
@@ -226,11 +237,6 @@
                                </h6>
                                </p>
 
-                                <h4>CONTACT</h4>
-                                <h6>Harini V.</h6>
-                                <h6>Monisha A.<h6>
-                                <h6>Samyuktha S.</h6>
-
                             </div>
             </div>
 
@@ -256,7 +262,7 @@
           <div class="leftcolumn">
 
             <div class="card">
-              <div class="fakeimg"><img src="img/ppt.jpg"></img></div>
+              <div class="fakeimg"><img src="img/ppti.jpg"></img></div>
               <p>The Paper Presentation Event at KRANTI'18 aims to provide the best platform to showcase your research ideas in front of an esteemed panel of judges. If you have carried out research works in the computer-science & electronics  fields, we would be more than happy to hear your ideas out! Prepare a presentation and unleash the speaker in you to grab exciting prizes! </p>
               <p>This year we are accepting CSE/IT/ECE related abstracts.  </p>
               <ul>
@@ -331,34 +337,31 @@
           <div class="leftcolumn">
 
             <div class="card">
-              <div class="fakeimg"><img src="img/blind.jpg"></img></div>
+              <div class="fakeimg"><img src="img/bbi.jpg"></img></div>
               <h4>RULES</h4>
               <li>2 PARTICIPANTS IN A TEAM</li>
               <li>The compiler provided will be DEV  C</li>
               <li>Consists of two rounds</li>
               <li>The Judges decision is final</li>
-         <h4>PRELIMINARY ROUND</h4>
+         <h5>LEVEL-1:ERROR CORRECTION</h5>
          <ol>
-           <li>A code with syntax error will be given on paper.</li>
-        <li>Participants have to correct the errors on paper and type the code with MONITOR SWITCHED OFF.</li>
-        <li>10 minutes will be given to type the code.</li>
-        <li>Based on the results of first round the participants will be selected for second round.</li>
+        <li>A code with syntax error will be given on paper.</li>
+        <li>Participants have to correct the errors on paper and type the code with
+MONITOR SWITCHED OFF.</li>
+        <li>12 minutes will be given to type the code.</li>
+        <li>Based on the results of first round the participants will be selected for
+second round.</li>
         </ol>
-         <h4>FINAL ROUND</h4>
-         <h5>LEVEL-1:CRACKING CODES</h5>
+         <h5>LEVEL-2:CRACKING CODES</h5>
          <ol>
-           <li>Students have to present their abstract a few weeks prior to the final presentation.  </li>
-        <li>This is a buzzer level.</li>
-        <li>10  Brain teasers will be asked</li>
-        <li>The team with maximum points will be announced as the winner.</li>
+        <li>Only problem statement will be provided.</li>
+        <li>Participants need to type the code in DEV C with MONITORS SWITCHED
+OFF.</li>
+        <li>Ten minutes will be given to each participant.</li>
+        <li>Based on the results of compilation and execution winners will be
+announced.</li>
         </ol>
-         <h5>LEVEL-2:SOLVING APTITUDE</h5>
-         <ol>
-           <li>Students have to present their abstract a few weeks prior to the final presentation.  </li>
-        <li>This is a buzzer level.</li>
-        <li>10  Brain teasers will be asked</li>
-        <li>The team with maximum points will be announced as the winner.</li>
-        </ol>
+
             </div>
           </div>
           <div class="rightcolumn">
@@ -398,7 +401,7 @@
             <div class="card">
               <h3>"Add numbers...to subtract bugs"</h3>
               <div class="fakeimg" >
-                <img src="img/bug.jpg">
+                <img src="img/cbi.jpg">
 
               </div>
               <p>Get your hands dirty to un-ruin your observation skills and computing power in a jiffy .
@@ -521,7 +524,59 @@
         <center> <h4 class="modal-title">Hunt the Code</h4></center>
       </div>
       <div class="modal-body">
+        <div class="row">
+  <div class="leftcolumn">
 
+    <div class="card">
+      <h3> "It's not at all important to get it right the first time. It's vitally important to get it right the last time."</h3>
+      <div class="fakeimg" >
+        <img src="img/htci.jpg">
+
+      </div>
+      <p>Computers are good at following instructions but not at reading your mind. Let us see if you can. Identify the input for which the given output is possible , code it , and show the output in round one. Then, race your way to level two for scenario based coding. <br></p>
+
+        <h4>  GUIDELINES </h4>
+        <p><ul>
+        <li>	Maximum of 2 members per team is allowed</li>
+        <li>	Internet usage and external help is not permitted </li>
+      <li>	Based on the first round participants will be short listed for the second round</li>
+      <li>	For the second level, each team will be given 5 questions and 2 hours time . </li>
+      <li>	The team who shows the maximum possible output within the stipulated time will be considered as the winner.  </li>
+    </ul>
+        </p>
+
+
+
+
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+
+    <div class="card">
+      <div class="sidebar-widget well">
+                        <h4>TEAM EVENT</h4>
+                        <h4>TIMINGS</h4>
+                        <p>
+                          <h6>
+                            <ul>
+                           <li>	Level 1: 9.30 A.M. - 11:00 A.M.</li>
+                       		<li>Level 2: 1.00 P.M-3.00 P.M</li>
+                         </ul>
+                       </h6>
+                       </p>
+
+                        <h4>CONTACT</h4>
+                        <h6>Divyabarathi.D</h6>
+                        <h6>Keerthana.R<h6>
+                        <h6>Meenakshi B.</h6>
+                        <h6>Sangavi D.</h6>
+
+                    </div>
+    </div>
+
+  </div>
+</div>
 </div>
 <div class="modal-footer">
 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -543,7 +598,7 @@
   <div class="leftcolumn">
 
     <div class="card">
-      <div class="fakeimg"><img src="img/beta5.jpg"></img></div>
+      <div class="fakeimg"><img src="img/bti.jpg"></img></div>
       <h4>RULES</h4>
 <li>The topics will be given on the spot.</li>
 <li>The participants will suppose to design practical models with the given materials.</li>
@@ -595,6 +650,90 @@
 </div>
 </div>
 
+<div class="modal fade" id="modal9" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center> <h4 class="modal-title">Gaming</h4></center>
+      </div>
+      <div class="modal-body">
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div class="card">
+      <div class="fakeimg"><img src="img/gami.jpg"></img></div>
+      <h4>RULES</h4>
+<li>Rules for the event will be updated shortly.</li>
+    </div>
+  </div>
+  <div class="rightcolumn">
+
+    <div class="card">
+      <div class="sidebar-widget well">
+                        <h4>Team Event</h4>
+                        <h6></h6>
+                        <h4>Date</h4>
+                        <h6>14 Sep, 2018</h6>
+                        <h4>Time</h4>
+                        <h6>9.00 AM (P)<br>02:00 PM (F)</h6>
+                    </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="modal10" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center> <h4 class="modal-title">Alcatraz</h4></center>
+      </div>
+      <div class="modal-body">
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div class="card">
+      <div class="fakeimg"><img src="img/acti.jpg"></img></div>
+      <h4>RULES</h4>
+<li>Rules for the event will be updated shortly.</li>
+    </div>
+  </div>
+  <div class="rightcolumn">
+
+    <div class="card">
+      <div class="sidebar-widget well">
+                        <h4>Team Event</h4>
+                        <h6></h6>
+                        <h4>Date</h4>
+                        <h6>14 Sep, 2018</h6>
+                        <h4>Time</h4>
+                        <h6>9.00 AM (P)<br>02:00 PM (F)</h6>
+                    </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
 <div class="modal fade" id="modal8" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -602,6 +741,8 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <center> <h4 class="modal-title">Regisration</h4></center>
       </div>
+      <h2>Registration coming soon</h2>
+      <!--
       <div class="modal-body">
         <?php
             if(isset($_GET['registration']))
@@ -641,6 +782,7 @@
         </form>
       </div>
     </div>
+  -->
     </div>
     <div class="modal-footer">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -746,15 +888,10 @@
         </div>
       </div>
       <br><br>
-      <div class="container-fluid mapouter ">
-        <div class="gmap_canvas">
-          <iframe style="width:75%; height:75%;position: 10 -50 10 0" id="gmap_canvas" src="https://maps.google.com/maps?q=meenakshi%20sundararajan&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.730168658516!2d80.2265366!3d13.0558678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d3f7e677496e707!2sMeenakshi+Sundararajan+Engineering+College!5e0!3m2!1sen!2sin!4v1535042015452" style="border:0" allowfullscreen="" width="100%" height="350" frameborder="0"></iframe>
+      </section>
 
-        </div>
-          <style>
-          .mapouter{text-align:right;height:498px;width:822px;}.gmap_canvas {overflow:hidden;background:none!important;height:498px;width:822px;}
-        </style>
-      </div>
 
      <!--
       <div class="row mar-top30">
@@ -782,9 +919,9 @@
 
   <!-- Footer -->
   <footer class="page-footer font-small blue">
-<!--
 
-    <div class="footer-copyright text-center py-3">Developed by Team <a href="index.html">KRANTI</a>
+
+    <div class="footer-copyright text-center py-3">Created by Team <a href="index.html">KRANTI</a>
     </div>
     <ul class="social-network">
       <li><a href="https://www.facebook.com/Kranti2k18-223941261658272/">
@@ -800,7 +937,7 @@
       </span></a>
       </li>
     </ul>
-     Copyright -->
+
 
   </footer>
 

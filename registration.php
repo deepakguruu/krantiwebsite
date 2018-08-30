@@ -29,7 +29,8 @@ if (isset($_POST['submit'])){
     else{
             if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
                 mysqli_close($conn);
-                    echo' <script> alert("Invalid Email");</script>'
+                    echo' <script> alert("Invalid Email") ;</script>';
+                      header("Location: index.php?invalid+email");
             }
             else{
                 if (!preg_match('/^[0-9]*$/',$con_no) || strlen($con_no) != 10){
@@ -37,7 +38,7 @@ if (isset($_POST['submit'])){
                       echo' <script> alert("Invalid+Number");</script>' ;
                 }
                 else{
-                    $sql = "SELECT * FROM kranti.participants WHERE email = \"$email\"";
+                    $sql = "SELECT * FROM kranti.participants_ WHERE email = \"$email\"";
                     $result = mysqli_query($conn,$sql);
                     $resultCheck = mysqli_num_rows($result);
                     if ($resultCheck > 0){
@@ -47,7 +48,7 @@ if (isset($_POST['submit'])){
 
                     }
                     else{
-                        $sql = "INSERT INTO kranti.participants (name, contact_no, email, college_name, gender) VALUES('$name','$con_no','$email','$college','$gender')";
+                        $sql = "INSERT INTO kranti.participants_ (name, contact_no, email, college_name, gender) VALUES('$name','$con_no','$email','$college','$gender')";
                         if(mysqli_query($conn,$sql))
                         {
                             mysqli_close($conn);
@@ -63,7 +64,7 @@ if (isset($_POST['submit'])){
         }
 
     }
-}
+
 else{
     mysqli_close($conn);
     echo' <script> alert("Please enter values in the fields");</script>' ;
