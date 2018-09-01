@@ -36,7 +36,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
+      <a href="index.php"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="top-navbar-1">
@@ -315,6 +315,10 @@
 
                             </div>
             </div>
+            <a class="btn btn-info" href="https://docs.google.com/forms/d/e/1FAIpQLScEhwwhbNLxwvUIT_5S_lLk0DA3hQg-IeAAQXVFTfOnCAVB3A/viewform?usp=sf_link">Register here</a>
+
+          </div>
+          <div >
 
           </div>
         </div>
@@ -741,7 +745,8 @@ announced.</li>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <center> <h4 class="modal-title">Regisration</h4></center>
       </div>
-      <h2>Registration coming soon</h2>
+
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegrd17g8lxZGLiqCCWTOe3jdOPTIE1urdyVt7j_gch9507kg/viewform?embedded=true" width="640" height="968" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       <!--
       <div class="modal-body">
         <?php
