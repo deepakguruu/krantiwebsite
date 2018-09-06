@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
-  <link rel="shortcut icon" type="image/x-icon" href="klogo.ico" />
+  <link rel="icon" href="klogo.ico" />
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen">
   <link href="color/default.css" rel="stylesheet" media="screen">
@@ -36,7 +36,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.php"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
+      <a href="index.html"><img src="knavmain.ico" alt="logonavbar"  height="80" width="100">
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="top-navbar-1">
@@ -66,7 +66,7 @@
           </div>
             <div class="heading-line"></div>
             <p>
-             Meenakshi Sundararajan Engineering College (MSEC) was established by the IIET Society in 2001. This institution is a part of the prestigious KRS Group of Institutions which also includes the renowned IIET (Indian Institute of Engineering Technology) established in 1947 by our Founder Late shri K.R.Sundararajan, the well-known Meenakshi College for Women and the more recently established Meenakshi Sundararajan School of Management. The institutions on the KRS Campus are known for the quality education they impart and their stringent levels of discipline. It has been consistently outshone all other peer institutions, not only in academics, but in co-curricular activities as well.  It has been constantly ranked in the Top 10 Engineering colleges in Tamil Nadu under Anna university affiliated colleges for the past several years by renowned rankings.
+             Meenakshi Sundararajan Engineering College (MSEC) was established by the IIET Society in 2001. This institution is a part of the prestigious KRS Group of Institutions which also includes the renowned IIET (Indian Institute of Engineering Technology) established in 1947 by our Founder Late shri K.R.Sundararajan, the well-known Meenakshi College for Women and the more recently established Meenakshi Sundararajan School of Management. The institutions on the KRS Campus are known for the quality education they impart and their stringent levels of discipline. It has consistently outshone all other peer institutions, not only in academics, but in co-curricular activities as well.  It has been constantly ranked in the Top 10 Engineering colleges in Tamil Nadu under Anna university affiliated colleges for the past several years by renowned rankings.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@
         </div>
 
         <div class="col-md-6 content">
-          <p>KRANTI 2018 is an National Technical Symposium organized by the department of computer science  - Meenakshi Sundararajan engineering college, Chennai. Symposium offers a one-of-a-kind experience to students by providing an array of opportunities under one umbrella. The idea behind Kranti'18 is to brush up students’ interest in future forward technologies through workshop and provide rich exposure and esoteric knowledge. Kranti'18 looks forward to promote; ”AUTOMATION ANYWHERE”, envisioning the future with a bionic eyes, where artificial intelligence and other associated evolving technologies replacing everything in our day-to-day life.</p>
+          <p>KRANTI 2018 is an National Technical Symposium organized by the department of computer science  - Meenakshi Sundararajan engineering college, Chennai. Symposium offers a one-of-a-kind experience to students by providing an array of opportunities under one umbrella. The idea behind Kranti'18 is to brush up students’ interest in future technologies through workshop and provide rich exposure and esoteric knowledge. Kranti'18 looks forward to promote; ”AUTOMATION ANYWHERE”, envisioning the future with bionic eyes, where artificial intelligence and other associated evolving technologies replacing everything in our day-to-day life.</p>
 
         </div>
       </div>
@@ -231,9 +231,8 @@
                                 <p>
                                   <h6>
                                     <ul>
-                                   <li>	Level 1: 10.00 A.M. - 11:00 A.M.</li>
-                                  <li>Level 2: 1.00 P.M-2.00 P.M</li>
-                                 </ul>
+                                   <li>9:30 AM (P)<br>1:45 PM (F)</li>
+                                    </ul>
                                </h6>
                                </p>
 
@@ -255,7 +254,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <center> <h4 class="modal-title">Braille Bonkers</h4></center>
+        <center> <h4 class="modal-title">PAPER-O-VANZA</h4></center>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -268,9 +267,9 @@
               <ul>
                 <li>Participants are requested to mail their abstracts to pptkranti2k18@gmail.com </li>
                 <li>Abstracts sent by e-mail must have the subject of the e-mail as:[PP] [Branch][College] </li>
-                <li>The last date for sending your abstract is  1st of sep 2018. </li>
-                <li>DATE OF INTIMATION:  5-9-2018 </li>
-                <li>DATE OF SUBMISSION: 6-9-2018</li>
+                <li>The last date for sending your abstract is  10th of sep 2018. </li>
+                <li>DATE OF INTIMATION:  10-9-2018 </li>
+                <li>DATE OF SUBMISSION: 10-9-2018</li>
         </ul>
         <p>You will be informed about the selection of abstract through  e-mail.
          Any other important detail regarding the venue or the timings of the competition will be conveyed through e-mails. </p>
@@ -311,14 +310,11 @@
                                 <h4>Date</h4>
                                 <h6>14 Sep, 2018</h6>
                                 <h4>Time</h4>
-                                <h6>11:00 AM (P)<br>02:00 PM (F)</h6>
+                                <h6>9:00 AM </h6>
 
                             </div>
             </div>
             <a class="btn btn-info" href="https://docs.google.com/forms/d/e/1FAIpQLScEhwwhbNLxwvUIT_5S_lLk0DA3hQg-IeAAQXVFTfOnCAVB3A/viewform?usp=sf_link">Register here</a>
-
-          </div>
-          <div >
 
           </div>
         </div>
@@ -334,7 +330,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <center> <h4 class="modal-title">Braille Bonkers</h4></center>
+        <center> <h4 class="modal-title">BRAILLE BONKERS</h4></center>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -377,7 +373,7 @@ announced.</li>
                                 <h4>Date</h4>
                                 <h6>14 Sep, 2018</h6>
                                 <h4>Time</h4>
-                                <h6>11:00 AM (P)<br>02:00 PM (F)</h6>
+                                <h6>9:00 AM (P)<br>1:00 PM (F)</h6>
              </div>
             </div>
 
@@ -396,7 +392,7 @@ announced.</li>
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <center> <h4 class="modal-title">Calbug</h4></center>
+        <center> <h4 class="modal-title">CALBUG</h4></center>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -434,8 +430,7 @@ announced.</li>
                                 <h4>TIMINGS</h4>
                                 <p>
                                   <h6><ul>
-                                   <li>	Round 1: 9:45 A.M. - 11:00 A.M.</li>
-                               		<li>Round 2: 11:30 A.M. - 12:30 P.M.</li>
+                                   <li>	9:00 AM (P)<br>01:30 PM (F)</li>
                                  </ul>
                                </h6>
                                </p>
@@ -457,7 +452,7 @@ announced.</li>
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <center> <h4 class="modal-title">X-Quiz-me</h4></center>
+        <center> <h4 class="modal-title">EX-QUIZ-ME</h4></center>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -481,9 +476,7 @@ announced.</li>
 
                   <h3>DURATION</h3>
                   <p>
-                    <ul><li>Round 1: 30 mins</li>
-                  		<li>Round 2: 30 mins</li>
-                  		<li>Round 3: 20 mins</li>
+                    <ul><li>9:00 AM (R1)<br>11:30 PM (R2)<br>02:00</li>
                     </ul>
                   </p>
 
@@ -525,7 +518,7 @@ announced.</li>
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <center> <h4 class="modal-title">Hunt the Code</h4></center>
+        <center> <h4 class="modal-title">CODE HUNT</h4></center>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -564,18 +557,11 @@ announced.</li>
                         <p>
                           <h6>
                             <ul>
-                           <li>	Level 1: 9.30 A.M. - 11:00 A.M.</li>
-                       		<li>Level 2: 1.00 P.M-3.00 P.M</li>
+                           <li>09:00 AM (P)<br>01:30 PM (F)</li>
                          </ul>
                        </h6>
                        </p>
-
-                        <h4>CONTACT</h4>
-                        <h6>Divyabarathi.D</h6>
-                        <h6>Keerthana.R<h6>
-                        <h6>Meenakshi B.</h6>
-                        <h6>Sangavi D.</h6>
-
+                       
                     </div>
     </div>
 
@@ -640,7 +626,7 @@ announced.</li>
                         <h4>Date</h4>
                         <h6>14 Sep, 2018</h6>
                         <h4>Time</h4>
-                        <h6>9.00 AM (P)<br>02:00 PM (F)</h6>
+                        <h6>9.30 AM (P)<br>02:15 PM (F)</h6>
                     </div>
     </div>
 
@@ -669,7 +655,7 @@ announced.</li>
     <div class="card">
       <div class="fakeimg"><img src="img/gami.jpg"></img></div>
       <h4>RULES</h4>
-<li>Rules for the event will be updated shortly.</li>
+<li>Rules and registration for the event will be updated shortly.</li>
     </div>
   </div>
   <div class="rightcolumn">
@@ -681,7 +667,7 @@ announced.</li>
                         <h4>Date</h4>
                         <h6>14 Sep, 2018</h6>
                         <h4>Time</h4>
-                        <h6>9.00 AM (P)<br>02:00 PM (F)</h6>
+                        <h6>9.00 AM </h6>
                     </div>
     </div>
 
@@ -723,7 +709,7 @@ announced.</li>
                         <h4>Date</h4>
                         <h6>14 Sep, 2018</h6>
                         <h4>Time</h4>
-                        <h6>9.00 AM (P)<br>02:00 PM (F)</h6>
+                        <h6>9.00 AM (P)<br>01:15 PM (F)</h6>
                     </div>
     </div>
 
@@ -745,8 +731,8 @@ announced.</li>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <center> <h4 class="modal-title">Regisration</h4></center>
       </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegrd17g8lxZGLiqCCWTOe3jdOPTIE1urdyVt7j_gch9507kg/viewform?embedded=true" width="640" height="968" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegrd17g8lxZGLiqCCWTOe3jdOPTIE1urdyVt7j_gch9507kg/viewform?embedded=true" width="640" height="968" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       <!--
       <div class="modal-body">
         <?php
@@ -847,7 +833,15 @@ announced.</li>
            &nbsp
            &nbsp
            &nbsp
-           <li class="wow fadeInDown" data-wow-delay="0.9s"><a><img src="img/sponsors/3.jpg" alt="" /></a></li>
+           <li class="wow fadeInDown" data-wow-delay="0.9s"><a><img src="img/sponsors/2.jpg" height=300 width =420 alt="" /></a></li>
+           &nbsp
+           &nbsp
+           &nbsp
+           <li class="wow fadeInDown" data-wow-delay="1.2s"><a><img src="img/sponsors/3.jpg" height=300 width =420 alt="" /></a></li>
+           &nbsp
+           &nbsp
+           &nbsp
+           <li class="wow fadeInDown" data-wow-delay="1.5s"><a><img src="img/sponsors/4.jpg" alt="" /></a></li>
          </ul>
        </div>
      </div>
